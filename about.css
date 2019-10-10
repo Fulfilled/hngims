@@ -1,0 +1,32 @@
+
+.jumbotron {
+    background-image: url("./ladytoon-office.svg");
+    /* background: url("./ladytoon-office.svg") no-repeat center center;  */
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color: #c7eaf5;
+    background-position: right;
+    color:rgb(38, 103, 243);
+    height:500px;
+  }
+  .second, .third{
+    display: flex;
+    background-size: 100% 100%;
+    background-position: right;
+    background-color: #83d9f3;
+    border-radius: 5px;
+    justify-content: center;
+    align-items:center;
+  }
+
+  img{
+        width: 900px;
+        padding:20px;
+        border-radius:30px;
+      }
+  .third{
+    background-color: #32c7f5;
+    border-radius: 5px;
+  }
